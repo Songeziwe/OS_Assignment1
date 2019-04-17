@@ -12,5 +12,7 @@ classes: Barrier.class BThread.class BarrierTest.class
 
 default: $(CLASSES)
 
+run:
+	java BarrierTest 5 5
 clean:
 	rm *.class
