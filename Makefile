@@ -4,15 +4,22 @@
 
 JAVAC=/usr/bin/javac
 
+barrierSize=5
+numberOfThreads=5
+
+package=BarrierS/
+
 .SUFFIXES: .java .class
 
 .java.class:
 	$(JAVAC) $<
-classes: Barrier.class BThread.class BarrierTest.class 
+
+classes: $(package)Barrier.class $(package)BThread.class $(package)BarrierTest.class 
 
 default: $(CLASSES)
 
 run:
-	java BarrierTest 5 5
+	java $(package)BarrierTest $(barrierSize) $(numberOfThreads)
+
 clean:
-	rm *.class
+	rm -f $(package)*.class
