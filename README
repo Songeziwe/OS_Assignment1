@@ -1,4 +1,4 @@
-# Submited documents:
+Submited documents:
 	SBSSON002_CSC3002F_OS2_Part1
 	+
 	+----Makefile
@@ -8,13 +8,13 @@
 		 +----BThread.java
 		 +----BarrierTest.java
 
-* # COMPILING THE PROJECT:
+* COMPILING THE PROJECT:
 	- navigate to SBSSON002_CSC3002F_OS2_Part1 diractory and use make on the terminal.
 
-* # RUNNING THE BarrierTest SOURCE FILE:
+* RUNNING THE BarrierTest SOURCE FILE:
 	- navigate to SBSSON002_CSC3002F_OS2_Part1 and use make run.
 
-# NOTE:
+NOTE:
 	- You can change the number of threads and barrier size 
 	  by openning the Makefile 
 	  and just edit one/both variables 
